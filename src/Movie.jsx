@@ -5,13 +5,12 @@ const Movie = () => {
     const [movie, setMovie] = useState(null);
     const [error, setError] = useState(null);
 
-    // OMDB API Key
     const apiKey = '47e55505';
-    // OMDB API URL for the movie with ID 'tt3896198'
+    
     const apiUrl = `http://www.omdbapi.com/?i=tt3896198&apikey=${apiKey}`;
 
     useEffect(() => {
-        // Fetch movie data from OMDB API
+        
         const fetchMovieData = async () => {
             try {
                 const response = await fetch(apiUrl);
