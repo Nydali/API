@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url('C:\Users\Murlo\Pictures\API prosjekt\Moviebackground.jpg'); 
-    background-size: cover;
+    background-image: url('/assets/Movie-background.jpg'); 
+    background-size: auto;
     background-position: center;
     background-repeat: no-repeat;
     color: #333;
