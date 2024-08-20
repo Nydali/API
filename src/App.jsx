@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './Home';
 import Contact from './Contact';
-import Movie from './Movie';
+import Category from './Category';
 import Search from './Search';
 
 function App() {
@@ -18,7 +18,7 @@ function App() {
               <Link to="/search">Search</Link>
             </li>
             <li>
-              <Link to="/movie">Movie Info</Link>
+              <Link to="/category">Movie Categories</Link>
             </li>
             <li>
               <Link to="/contact">Contact Me</Link>
@@ -29,7 +29,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/search" element={<Search />} />
-          <Route path="/movie" element={<Movie />} />
+          <Route path="/category" element={<Category />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>

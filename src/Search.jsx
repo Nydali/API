@@ -14,7 +14,7 @@ const Search = () => {
             return;
         }
 
-        const apiUrl = `http://www.omdbapi.com/?t=${encodeURIComponent(query)}&apikey=${apiKey}`;
+        const apiUrl = `https://www.omdbapi.com/?t=${encodeURIComponent(query)}&apikey=${apiKey}`;
 
         try {
             const response = await fetch(apiUrl);
