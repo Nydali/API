@@ -10,12 +10,27 @@ const Category = () => {
 
     const categories = [
         'Action',
+        'Adventure',
+        'Animation',
+        'Biography',
         'Comedy',
+        'Crime',
+        'Documentary',
         'Drama',
+        'Family',
+        'Fantasy',
+        'Film-Noir',
+        'History',
         'Horror',
+        'Music',
+        'Musical',
+        'Mystery',
         'Romance',
         'Science Fiction',
+        'Sport',
         'Thriller',
+        'War',
+        'Western',
     ];
 
     const handleCategoryChange = async (selectedCategory) => {
@@ -76,4 +91,3 @@ const Category = () => {
 };
 
 export default Category;
-
